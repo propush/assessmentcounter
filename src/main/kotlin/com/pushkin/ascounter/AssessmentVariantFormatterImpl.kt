@@ -9,7 +9,7 @@ class AssessmentVariantFormatterImpl : AssessmentVariantFormatter {
                 sb.append("Total (max ${assessmentVariant.maxTotalResult})")
                 sb.appendln()
                 assessmentVariant
-                    .asessment
+                    .assessment
                     .forEach {
                         it
                             .repeats

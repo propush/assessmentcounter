@@ -50,7 +50,7 @@ class AssessmentVariant(
         }
     }
 
-    val asessment by lazy { evaluate() }
+    val assessment by lazy { evaluate() }
 
     fun evaluate(): ArrayList<VariantResult> {
         val result = arrayListOf<VariantResult>()
